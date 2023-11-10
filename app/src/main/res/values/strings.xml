@@ -1,4 +1,19 @@
 <resources>
     <string name="app_name">AnderDeLaIglesiaPerexExamEval1</string>
-    <string name="btnCambiarColor">Cambiar Color</string>
+
+    <string name="txttexto">Puntuacion:</string>
+
+    <string name="txtbarakaldo">BARAKALDO</string>
+    <string name="txtpuntuacionbarakaldo">0</string>
+
+    <string name="txtsanturtzi">SANTURTZI</string>
+    <string name="txtpuntuacionsanturtzi">0</string>
+
+    <string name="txtsestao">SESTAO</string>
+    <string name="txtpuntuacionsestao">0</string>
+
+    <string name="txtportugalete">PORTUGALETE</string>
+    <string name="txtpuntuacionportugalete">0</string>
+    <string name="btnvolver">Volver</string>
+    <string name="btnDarLike">Dar like</string>
 </resources>

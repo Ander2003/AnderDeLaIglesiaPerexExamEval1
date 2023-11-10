@@ -6,4 +6,196 @@
     android:layout_height="match_parent"
     tools:context=".Menu">
 
+    <TextView
+        android:id="@+id/txtPortugalete"
+        android:layout_width="135dp"
+        android:layout_height="31dp"
+        android:text="@string/txtportugalete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.292"
+        app:layout_constraintStart_toEndOf="@+id/imgPortu"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.557" />
+
+    <TextView
+        android:id="@+id/txtPuntuacionPortugalete"
+        android:layout_width="143dp"
+        android:layout_height="31dp"
+        android:text="@string/txtpuntuacionportugalete"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.363"
+        app:layout_constraintStart_toEndOf="@+id/imgPortu"
+        app:layout_constraintTop_toBottomOf="@+id/txtTextoBarakaldo"
+        app:layout_constraintVertical_bias="0.549" />
+
+    <TextView
+        android:id="@+id/txtSestao"
+        android:layout_width="135dp"
+        android:layout_height="31dp"
+        android:text="@string/txtsestao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.275"
+        app:layout_constraintStart_toEndOf="@+id/imgSestao"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.817" />
+
+    <TextView
+        android:id="@+id/txtTextoSestao"
+        android:layout_width="133dp"
+        android:layout_height="22dp"
+        android:text="@string/txttexto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.238"
+        app:layout_constraintStart_toEndOf="@+id/imgSestao"
+        app:layout_constraintTop_toBottomOf="@+id/txtBarakaldo"
+        app:layout_constraintVertical_bias="0.823" />
+
+    <TextView
+        android:id="@+id/txtPuntuacionSestao"
+        android:layout_width="143dp"
+        android:layout_height="31dp"
+        android:text="@string/txtpuntuacionsestao"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.312"
+        app:layout_constraintStart_toEndOf="@+id/imgSestao"
+        app:layout_constraintTop_toBottomOf="@+id/txtTextoBarakaldo"
+        app:layout_constraintVertical_bias="0.868" />
+
+    <TextView
+        android:id="@+id/txtTextoPortugalete"
+        android:layout_width="133dp"
+        android:layout_height="22dp"
+        android:text="@string/txttexto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.279"
+        app:layout_constraintStart_toEndOf="@+id/imgPortu"
+        app:layout_constraintTop_toBottomOf="@+id/txtBarakaldo"
+        app:layout_constraintVertical_bias="0.52" />
+
+    <TextView
+        android:id="@+id/txtSanturtzi"
+        android:layout_width="135dp"
+        android:layout_height="31dp"
+        android:text="@string/txtsanturtzi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintStart_toEndOf="@+id/imgSanturtzi"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.328" />
+
+    <TextView
+        android:id="@+id/txtPuntuacionSanturtzi"
+        android:layout_width="143dp"
+        android:layout_height="31dp"
+        android:text="@string/txtpuntuacionsanturtzi"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/imgSanturtzi"
+        app:layout_constraintTop_toBottomOf="@+id/txtTextoBarakaldo"
+        app:layout_constraintVertical_bias="0.268" />
+
+    <TextView
+        android:id="@+id/txtTextoSanturtzi"
+        android:layout_width="133dp"
+        android:layout_height="22dp"
+        android:text="@string/txttexto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.311"
+        app:layout_constraintStart_toEndOf="@+id/imgSanturtzi"
+        app:layout_constraintTop_toBottomOf="@+id/txtBarakaldo"
+        app:layout_constraintVertical_bias="0.254" />
+
+    <ImageView
+        android:id="@+id/imgBarakaldo"
+        android:layout_width="216dp"
+        android:layout_height="164dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.087"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.067"
+        app:srcCompat="@drawable/barakaldo" />
+
+    <ImageView
+        android:id="@+id/imgSanturtzi"
+        android:layout_width="217dp"
+        android:layout_height="165dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.082"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgBarakaldo"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/santurtzi" />
+
+    <ImageView
+        android:id="@+id/imgPortu"
+        android:layout_width="218dp"
+        android:layout_height="164dp"
+        android:layout_marginBottom="200dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/portugalete" />
+
+    <ImageView
+        android:id="@+id/imgSestao"
+        android:layout_width="219dp"
+        android:layout_height="165dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.088"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPortu"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/sestao" />
+
+    <TextView
+        android:id="@+id/txtBarakaldo"
+        android:layout_width="135dp"
+        android:layout_height="31dp"
+        android:text="@string/txtbarakaldo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.325"
+        app:layout_constraintStart_toEndOf="@+id/imgBarakaldo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.11" />
+
+    <TextView
+        android:id="@+id/txtTextoBarakaldo"
+        android:layout_width="133dp"
+        android:layout_height="22dp"
+        android:text="@string/txttexto"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.311"
+        app:layout_constraintStart_toEndOf="@+id/imgBarakaldo"
+        app:layout_constraintTop_toBottomOf="@+id/txtBarakaldo"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/txtPuntuacionBarakaldo"
+        android:layout_width="143dp"
+        android:layout_height="31dp"
+        android:text="@string/txtpuntuacionbarakaldo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toEndOf="@+id/imgBarakaldo"
+        app:layout_constraintTop_toBottomOf="@+id/txtTextoBarakaldo"
+        app:layout_constraintVertical_bias="0.0" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

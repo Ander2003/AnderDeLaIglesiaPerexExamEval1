@@ -9,7 +9,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class MainActivity extends AppCompatActivity {
 
-
     ImageView IimgLogo;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
